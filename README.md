@@ -8,11 +8,11 @@ API
 
 The files contained in this repository are available as a psuedo-service using the following syntax:
 
-`https://raw.github.com/NASA/digital-strategy/{api_version}/{file}.{format}`
+`https://raw.github.com/NASA/digital-strategy/master/{file}.{format}`
 
 Examples:
 
-[`https://raw.github.com/NASA/digital-strategy/1/digitalstrategy.xml`](https://raw.github.com/NASA/digital-strategy/1/digitalstrategy.xml)
+[`https://raw.github.com/NASA/digital-strategy/master/digitalstrategy.xml`](https://raw.github.com/NASA/digital-strategy/master/digitalstrategy.xml)
 
 Files
 -----
