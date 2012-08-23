@@ -1,0 +1,870 @@
+<?xml version="1.0"?>
+<report>
+  <agency>NASA</agency>
+  <generated>2012-08-23 14:02:35</generated>
+  <items>
+    <item id="2.1">
+      <parent/>
+      <text>Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</text>
+      <due>90 Days</due>
+      <due_date>2012/08/21</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>2-1-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value>completed</value>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="2.1.1">
+      <parent>2.1</parent>
+      <text>Paragraph on customer engagement approach</text>
+      <due>90 days</due>
+      <due_date>2012/08/21</due_date>
+      <fields>
+        <field>
+          <type>textarea</type>
+          <name>2-1-1-customer-engagement-approach</name>
+          <label>Paragraph on customer engagement approach</label>
+          <options/>
+          <value>Code and data are two of the major ways that NASA engages our customers. Code.nasa.gov website expands NASA&#x2019;s open source activities, surfaces existing activities, provides a discussion forum, and guides internal and external groups in open development, release, and contribution.NASA hoped to lower barriers to building open technology in partnership with the public. Phase two concentrates on discussion of open source concepts, policies, and activities at NASA. The third phase focuses on building software tools to improve and speed open source development (distributed version control, issue tracking, continuous integration, documentation, communication, and planning/management). Data.nasa.gov is NASA&#x2019;s commitment to open data expands the audience for the vast body of knowledge captured in nearly 100 years of U.S. aeronautics and space data. Developers, technologists, entrepreneurs, citizen scientists and many others can contribute directly to the exploration of space and Earth by helping to create new ways of looking at this data. Additionally, the release of administrative and procedural information from within NASA enables researchers and analysts to understand more about the inner workings of NASA as well as allow our own employees to better understand other functions of our Agency. As part of the Open Government Initiative, the Agency is working to improve accessibility to this data and incentivizing the use of government data by citizens. To address the ever-increasing amount of tools and data catalogs that are publicly available on NASA&#x2019;s many websites, this directory lists publicly available datasets and serves to streamline the process for posting these datasets on data.gov. The directory includes information and direct links to more than 1000 datasets, and this is just a small beginning.</value>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="2.1.2">
+      <parent>2.1</parent>
+      <text>Prioritized list of systems (datasets)</text>
+      <due>90 days</due>
+      <due_date>2012/08/21</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>2-1-2-name</name>
+          <label>System Name</label>
+          <options/>
+          <value>
+            <value>NASA Data API</value>
+            <value>ISS Live API</value>
+            <value>ExoAPI</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>2-1-2-description</name>
+          <label>System Description</label>
+          <options/>
+          <value>
+            <value>The data.nasa.gov API allows a machine-readable interface to return metadata from the site organized by category, tag, date, or search term. We&#x2019;re hoping this allows new and creative visualizations of the data resources NASA provides to the public. Additionally, it is a learning experience for us as we work to expand transparency, participation, and collaboration at NASA through new uses of technology.</value>
+            <value>Thousands of data points are downloaded every minute from the Station, and ISS Live! makes a broad set of that data open and accessible. Furthermore,  ISS Live! will make an application programming interface (API) available as a web service for external developers to take ISS data and put it into their own websites and mobile applications.</value>
+            <value>ExoAPI is an ongoing project that extends the accessibility of exoplanetary data by providing an easy to use RESTful API. ExoAPI was created during the NASA Space Apps Challenge by a team of three amazing geniuses who knew nothing about space before they started this...and still don't really. Currently the data is provided by http://exoplanetology.blogspot.com/ who in turn feeds the data from http://exoplanet.eu/. The ExoAPI team plans on extending the API to encompass a wider array of data sources and more interesting space data to reach as many programmers as possible and encourage an explosion of space data based mashups. </value>
+          </value>
+        </field>
+        <field>
+          <type>select</type>
+          <name>2-1-2-scope</name>
+          <label>System Scope</label>
+          <options>
+            <option>
+              <label>Internal</label>
+              <value>internal</value>
+            </option>
+            <option>
+              <label>External</label>
+              <value>external</value>
+            </option>
+            <option>
+              <label>Both</label>
+              <value>both</value>
+            </option>
+          </options>
+          <value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>2-1-2-customer</name>
+          <label>Main Customer</label>
+          <options/>
+          <value>
+            <value>Employees, Citizens</value>
+            <value>Employees, Citizens</value>
+            <value>Employees, Citizens</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>2-1-2-uii</name>
+          <label>Unique Investment Identifier</label>
+          <options/>
+          <value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+          </value>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+    <item id="7.1">
+      <parent/>
+      <text>Engage with customers to identify at least two existing priority customer-facing services to optimize for mobile use.</text>
+      <due>90 Days</due>
+      <due_date>2012/08/21</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>7-1-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value>completed</value>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="7.1.1">
+      <parent>7.1</parent>
+      <text>Paragraph on customer engagement approach</text>
+      <due>90 days</due>
+      <due_date>2012/08/21</due_date>
+      <fields>
+        <field>
+          <type>textarea</type>
+          <name>7-1-1-customer-engagement-approach</name>
+          <label>Paragraph on customer engagement approach</label>
+          <options/>
+          <value>In June, 2012 NASA held a Mobility Summit at Kennedy Space Center with all the Center Chief Technology Officers (CTO) for IT who worked as the CTO Council to craft an Agency vision and strategy for Agency mobility. NASA's mobility vision is articulated as, "Anyone will be able to securely and seamlessly access and share any information, anyplace, anytime, with any device." The following identified activities are projected: Publish NASA Mobile application development and release standards; Publish Mobile Computing guidelines - ensuring that all newly provisioned services are device agnostic; Publish NASA standard mobility practices; Prepare communications and support to enable a mobile workforce.&#xD;
+</value>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="7.1.2">
+      <parent>7.1</parent>
+      <text>Prioritized list of systems (datasets)</text>
+      <due>90 days</due>
+      <due_date>2012/08/21</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>7-1-2-name</name>
+          <label>System Name</label>
+          <options/>
+          <value>
+            <value>NASA Apps Store</value>
+            <value>WebTADS</value>
+            <value>Visualization Explorer</value>
+            <value>people.nasa.gov</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>7-1-2-description</name>
+          <label>System Description</label>
+          <options/>
+          <value>
+            <value>Provide employees and contractors with access to agency data and systems on the go.</value>
+            <value>WebTADS Mobile is a lighter version of the desktop-based WebTADS developed to provide NASA Civil Servants with the convenience of recording time when they're not in the office or connected via VPN.</value>
+            <value>NASA Visualization Explorer, the coolest way to get stories about advanced space-based research delivered right to your iPad. A direct connection to NASA&#x2019;s extraordinary fleet of research spacecraft, this app presents cutting edge research stories in an engaging and exciting format. </value>
+            <value>NASA Enterprise Directory (NED) Search</value>
+          </value>
+        </field>
+        <field>
+          <type>select</type>
+          <name>7-1-2-scope</name>
+          <label>System Scope</label>
+          <options>
+            <option>
+              <label>Internal</label>
+              <value>internal</value>
+            </option>
+            <option>
+              <label>External</label>
+              <value>external</value>
+            </option>
+            <option>
+              <label>Both</label>
+              <value>both</value>
+            </option>
+          </options>
+          <value>
+            <value>internal</value>
+            <value>internal</value>
+            <value>both</value>
+            <value>both</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>7-1-2-customer</name>
+          <label>Main Customer</label>
+          <options/>
+          <value>
+            <value>Employees</value>
+            <value>Employees</value>
+            <value>Employees, Citizens</value>
+            <value>Employees, Citizens</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>7-1-2-uii</name>
+          <label>Unique Investment Identifier</label>
+          <options/>
+          <value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000004110</value>
+            <value>026-000000001</value>
+          </value>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+    <item id="4.2">
+      <parent/>
+      <text>Establish an agency-wide governance structure for developing and delivering digital services</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>4-2-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>4-2-link</name>
+          <label>Link to governance document</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="4.2.1">
+      <parent>4.2</parent>
+      <text>Goals</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>4-2-1-goal</name>
+          <label>Goal</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>4-2-1-measure</name>
+          <label>Measure</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>4-2-1-completion-date</name>
+          <label>Target completion date</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="4.2.3">
+      <parent>4.2</parent>
+      <text>Set specified agency-wide policies and standards</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>4-2-3-standard</name>
+          <label>Policy or standard</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>select</type>
+          <name>4-2-3-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+    <item id="5.2">
+      <parent/>
+      <text>Develop an enterprise-wide inventory of mobile devices and wireless service contracts</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>5-2-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="5.2.1">
+      <parent>5.2</parent>
+      <text>Develop mobile device inventory</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>5-2-1-link</name>
+          <label>Link to inventory</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="5.2.2">
+      <parent>5.2</parent>
+      <text>Develop wireless service contract inventory</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>5-2-2-component</name>
+          <label>Bureau/Component</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>select</type>
+          <name>5-2-2-device-inventory-status</name>
+          <label>Mobile Device Inventory Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>select</type>
+          <name>5-2-2-contract-inventory-status</name>
+          <label>Wireless Service Contract Inventory Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+    <item id="8.2">
+      <parent/>
+      <text>Implement performance and customer satisfaction measuring tools on all .gov websites</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>8-2-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="8.2.1">
+      <parent>8.2</parent>
+      <text>Implement performance measurement tool</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>textarea</type>
+          <name>8-2-1-implementation</name>
+          <label>Describe Implementation</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="8.2.2">
+      <parent>8.2</parent>
+      <text>Implement customer satisfaction tool</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>textarea</type>
+          <name>8-2-2-implementation</name>
+          <label>Describe Implementation</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="1.2">
+      <parent/>
+      <text>Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>1-2-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="1.2.1">
+      <parent>1.2</parent>
+      <text>Document policy for architecting new IT systems for openness by default</text>
+      <due>6 months</due>
+      <due_date>2012/11/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>1-2-1-url</name>
+          <label>URL of policy</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>1-2-1-description</name>
+          <label>Describe policy</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="1.2.2">
+      <parent>1.2</parent>
+      <text>Operationalize /developer page</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>1-2-2-url</name>
+          <label>URL of page</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="2.2">
+      <parent/>
+      <text>Make high-value data and content in at least two existing, major customer-facing systems available through web APIs, apply metadata tagging and publish a plan to transition additional high-value systems</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>2-2-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="2.2.1">
+      <parent>2.1</parent>
+      <text>Make 2+ systems (datasets) available via web APIs with metadata tags</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>2-2-1-url</name>
+          <label>URL of page</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+    <item id="2.2.2">
+      <parent>2.1</parent>
+      <text>Publish plan on future activity</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>2-2-2-system</name>
+          <label>Name of system</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>2-2-2-description</name>
+          <label>Description of system</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>select</type>
+          <name>2-2-2-scope</name>
+          <label>Scope of system</label>
+          <options>
+            <option>
+              <label>Internal</label>
+              <value>internal</value>
+            </option>
+            <option>
+              <label>External</label>
+              <value>external</value>
+            </option>
+            <option>
+              <label>Both</label>
+              <value>both</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>2-2-2-customers</name>
+          <label>Main Customers</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>2-2-2-url</name>
+          <label>Endpoint URL</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>2-2-2-compliance</name>
+          <label>Summary of policy compliance</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+    <item id="5.3">
+      <parent/>
+      <text>Evaluate the government-wide contract vehicles in the alternatives analysis for all new mobile-related procurements</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>5-3-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>5-3-policy</name>
+          <label>Paragraph on policy</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="6.3">
+      <parent/>
+      <text>Ensure all new digital services follow digital services and customer experience improvement guidelines</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>6-3-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>6-3-policy</name>
+          <label>Paragraph on policy</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="7.2">
+      <parent/>
+      <text>Optimize at least two existing priority customer-facing services for mobile use and publish a plan for improving additional existing services</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>select</type>
+          <name>7-2-status</name>
+          <label>Overall Status</label>
+          <options>
+            <option>
+              <label>Not Started</label>
+              <value>not-started</value>
+            </option>
+            <option>
+              <label>In Progress</label>
+              <value>in-progress</value>
+            </option>
+            <option>
+              <label>Completed</label>
+              <value>completed</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>7-2-url</name>
+          <label>URL of plan</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple/>
+    </item>
+    <item id="7.2.1">
+      <parent>7.2.</parent>
+      <text>Report on services</text>
+      <due>12 months</due>
+      <due_date>2013/05/23</due_date>
+      <fields>
+        <field>
+          <type>text</type>
+          <name>7-2-1-name</name>
+          <label>Service Name</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>7-2-1-name</name>
+          <label>Service Description</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>select</type>
+          <name>7-2-1-scope</name>
+          <label>System Scope</label>
+          <options>
+            <option>
+              <label>Internal</label>
+              <value>internal</value>
+            </option>
+            <option>
+              <label>External</label>
+              <value>external</value>
+            </option>
+            <option>
+              <label>Both</label>
+              <value>both</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>7-2-1-customers</name>
+          <label>Primary customers</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>7-2-1-url</name>
+          <label>URL of service</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>textarea</type>
+          <name>7-2-1-optimizations</name>
+          <label>Summary of optimizations</label>
+          <options/>
+          <value/>
+        </field>
+      </fields>
+      <multiple>1</multiple>
+    </item>
+  </items>
+</report>
