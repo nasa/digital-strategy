@@ -23,4 +23,4 @@ Files
 Questions
 ----
 
-This report was compiled by members of NASA's Office of the Chief Information Officer. The GitHub repository is maintained by [Sean Herron](https://github.com/seanherron) who can be reached at <sean.herron@nasa.gov>
+This report was compiled by members of NASA's Open Government Team, located in the Office of the Chief Information Officer. The GitHub repository is maintained by [Sean Herron](https://github.com/seanherron).
