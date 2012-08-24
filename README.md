@@ -23,4 +23,6 @@ Files
 Questions
 ----
 
-This report was compiled by members of NASA's Open Government Team, located in the Office of the Chief Information Officer. The GitHub repository is maintained by [Sean Herron](https://github.com/seanherron).
+Implementation of the Digital Strategy at NASA is coordinated by the NASA's Open Government Team, located in the Office of the Chief Information Officer. For general information, contact [Nick Skytland](mailto:nicholas.g.skytland@nasa.gov).  To get involved, contact [Ali Llewellyn](alicia.llewellyn-1@nasa.gov).  Questions about the website, APIs, data or code can be directed to [Sean Herron](sean.herron@nasa.gov).
+
+
