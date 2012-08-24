@@ -1,170 +1,155 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Slash Digital Strategy Generator</title>
+    <title>Bootstrap, from Twitter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <style>
-    	body { margin-top: 60px; margin-bottom: 60px; }
-     	h1 { text-align: center; margin-bottom: 25px; }
-     	h3, h4 {margin-bottom: 25px; }
-     	#import-upload {display:none; text-align: center; }
-     	#import-prompt {text-align: center; font-style: italic; }
-     	#upload-form {margin: 0;}
-     	.due { float:right; color: #aaa; margin-top: 7px; font-style: italic; }
-     	.border-top { border-top: 1px solid #ccc; padding-top: 20px; }
-     	footer { text-align: center; font-style: italic; color: #ccc;}
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
     </style>
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
-  
-      <div class="container">
 
-<!-- ************ BEGIN BARE-BONES HTML; COPY STARTING HERE IF ADDING TO A CMS ************ -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              Logged in as <a href="#" class="navbar-link">Username</a>
+            </p>
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-<h1>Digital Government Strategy Report for the National Aeronautics and Space Administration</h1>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Sidebar</li>
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Sidebar</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Sidebar</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <div class="hero-unit">
+            <h1>Hello, world!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+          </div>
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
 
-<h2>2.1. Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</h2>
-	<strong>Overall Status</strong>: completed<br />
-<h3>2.1.1. Paragraph on customer engagement approach</h3>
-	<strong>Paragraph on customer engagement approach</strong>: Code and data are two of the major ways that NASA engages our customers. Code.nasa.gov website expands NASA’s open source activities, surfaces existing activities, provides a discussion forum, and guides internal and external groups in open development, release, and contribution.NASA hoped to lower barriers to building open technology in partnership with the public. Phase two concentrates on discussion of open source concepts, policies, and activities at NASA. The third phase focuses on building software tools to improve and speed open source development (distributed version control, issue tracking, continuous integration, documentation, communication, and planning/management). Data.nasa.gov is NASA’s commitment to open data expands the audience for the vast body of knowledge captured in nearly 100 years of U.S. aeronautics and space data. Developers, technologists, entrepreneurs, citizen scientists and many others can contribute directly to the exploration of space and Earth by helping to create new ways of looking at this data. Additionally, the release of administrative and procedural information from within NASA enables researchers and analysts to understand more about the inner workings of NASA as well as allow our own employees to better understand other functions of our Agency. As part of the Open Government Initiative, the Agency is working to improve accessibility to this data and incentivizing the use of government data by citizens. To address the ever-increasing amount of tools and data catalogs that are publicly available on NASA’s many websites, this directory lists publicly available datasets and serves to streamline the process for posting these datasets on data.gov. The directory includes information and direct links to more than 1000 datasets, and this is just a small beginning.<br />
-<h3>2.1.2. Prioritized list of systems (datasets)</h3>
-	<strong>System Name</strong>: NASA Data API<br />
-	<strong>System Description</strong>: The data.nasa.gov API allows a machine-readable interface to return metadata from the site organized by category, tag, date, or search term. We’re hoping this allows new and creative visualizations of the data resources NASA provides to the public. Additionally, it is a learning experience for us as we work to expand transparency, participation, and collaboration at NASA through new uses of technology.<br />
-	<strong>System Scope</strong>: both<br />
-	<strong>Main Customer</strong>: Employees, Citizens<br />
-	<strong>Unique Investment Identifier</strong>: 026-000000001<br />
-<hr >	<strong>System Name</strong>: ISS Live API<br />
-	<strong>System Description</strong>: Thousands of data points are downloaded every minute from the Station, and ISS Live! makes a broad set of that data open and accessible. Furthermore,  ISS Live! will make an application programming interface (API) available as a web service for external developers to take ISS data and put it into their own websites and mobile applications.<br />
-	<strong>System Scope</strong>: both<br />
-	<strong>Main Customer</strong>: Employees, Citizens<br />
-	<strong>Unique Investment Identifier</strong>: 026-000000001<br />
-<hr >	<strong>System Name</strong>: ExoAPI<br />
-	<strong>System Description</strong>: ExoAPI is an ongoing project that extends the accessibility of exoplanetary data by providing an easy to use RESTful API. ExoAPI was created during the NASA Space Apps Challenge by a team of three amazing geniuses who knew nothing about space before they started this...and still don't really. Currently the data is provided by http://exoplanetology.blogspot.com/ who in turn feeds the data from http://exoplanet.eu/. The ExoAPI team plans on extending the API to encompass a wider array of data sources and more interesting space data to reach as many programmers as possible and encourage an explosion of space data based mashups. <br />
-	<strong>System Scope</strong>: both<br />
-	<strong>Main Customer</strong>: Employees, Citizens<br />
-	<strong>Unique Investment Identifier</strong>: 026-000000001<br />
-<hr ><h2>7.1. Engage with customers to identify at least two existing priority customer-facing services to optimize for mobile use.</h2>
-	<strong>Overall Status</strong>: completed<br />
-<h3>7.1.1. Paragraph on customer engagement approach</h3>
-	<strong>Paragraph on customer engagement approach</strong>: In June, 2012 NASA held a Mobility Summit at Kennedy Space Center with all the Center Chief Technology Officers (CTO) for IT who worked as the CTO Council to craft an Agency vision and strategy for Agency mobility. NASA's mobility vision is articulated as, "Anyone will be able to securely and seamlessly access and share any information, anyplace, anytime, with any device." The following identified activities are projected: Publish NASA Mobile application development and release standards; Publish Mobile Computing guidelines - ensuring that all newly provisioned services are device agnostic; Publish NASA standard mobility practices; Prepare communications and support to enable a mobile workforce.
-<br />
-<h3>7.1.2. Prioritized list of systems (datasets)</h3>
-	<strong>System Name</strong>: NASA Apps Store<br />
-	<strong>System Description</strong>: Provide employees and contractors with access to agency data and systems on the go.<br />
-	<strong>System Scope</strong>: internal<br />
-	<strong>Main Customer</strong>: Employees<br />
-	<strong>Unique Investment Identifier</strong>: 026-000000001<br />
-<hr >	<strong>System Name</strong>: WebTADS<br />
-	<strong>System Description</strong>: WebTADS Mobile is a lighter version of the desktop-based WebTADS developed to provide NASA Civil Servants with the convenience of recording time when they're not in the office or connected via VPN.<br />
-	<strong>System Scope</strong>: internal<br />
-	<strong>Main Customer</strong>: Employees<br />
-	<strong>Unique Investment Identifier</strong>: 026-000000001<br />
-<hr >	<strong>System Name</strong>: Visualization Explorer<br />
-	<strong>System Description</strong>: NASA Visualization Explorer, the coolest way to get stories about advanced space-based research delivered right to your iPad. A direct connection to NASA’s extraordinary fleet of research spacecraft, this app presents cutting edge research stories in an engaging and exciting format. <br />
-	<strong>System Scope</strong>: both<br />
-	<strong>Main Customer</strong>: Employees, Citizens<br />
-	<strong>Unique Investment Identifier</strong>: 026-000004110<br />
-<hr >	<strong>System Name</strong>: people.nasa.gov<br />
-	<strong>System Description</strong>: NASA Enterprise Directory (NED) Search<br />
-	<strong>System Scope</strong>: both<br />
-	<strong>Main Customer</strong>: Employees, Citizens<br />
-	<strong>Unique Investment Identifier</strong>: 026-000000001<br />
-<hr ><h2>4.2. Establish an agency-wide governance structure for developing and delivering digital services</h2>
-	<strong>Overall Status</strong>: <br />
-	<strong>Link to governance document</strong>: <br />
-<h3>4.2.1. Goals</h3>
-	<strong>Goal</strong>: <br />
-	<strong>Measure</strong>: <br />
-	<strong>Target completion date</strong>: <br />
-<h3>4.2.3. Set specified agency-wide policies and standards</h3>
-<h2>5.2. Develop an enterprise-wide inventory of mobile devices and wireless service contracts</h2>
-	<strong>Overall Status</strong>: <br />
-<h3>5.2.1. Develop mobile device inventory</h3>
-	<strong>Link to inventory</strong>: <br />
-<h3>5.2.2. Develop wireless service contract inventory</h3>
-<h2>8.2. Implement performance and customer satisfaction measuring tools on all .gov websites</h2>
-	<strong>Overall Status</strong>: <br />
-<h3>8.2.1. Implement performance measurement tool</h3>
-	<strong>Describe Implementation</strong>: <br />
-<h3>8.2.2. Implement customer satisfaction tool</h3>
-	<strong>Describe Implementation</strong>: <br />
-<h2>1.2. Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages</h2>
-	<strong>Overall Status</strong>: <br />
-<h3>1.2.1. Document policy for architecting new IT systems for openness by default</h3>
-	<strong>URL of policy</strong>: <br />
-	<strong>Describe policy</strong>: <br />
-<h3>1.2.2. Operationalize /developer page</h3>
-	<strong>URL of page</strong>: <br />
-<h2>2.2. Make high-value data and content in at least two existing, major customer-facing systems available through web APIs, apply metadata tagging and publish a plan to transition additional high-value systems</h2>
-	<strong>Overall Status</strong>: <br />
-<h3>2.2.1. Make 2+ systems (datasets) available via web APIs with metadata tags</h3>
-<h3>2.2.2. Publish plan on future activity</h3>
-<h2>5.3. Evaluate the government-wide contract vehicles in the alternatives analysis for all new mobile-related procurements</h2>
-	<strong>Overall Status</strong>: <br />
-	<strong>Paragraph on policy</strong>: <br />
-<h2>6.3. Ensure all new digital services follow digital services and customer experience improvement guidelines</h2>
-	<strong>Overall Status</strong>: <br />
-	<strong>Paragraph on policy</strong>: <br />
-<h2>7.2. Optimize at least two existing priority customer-facing services for mobile use and publish a plan for improving additional existing services</h2>
-	<strong>Overall Status</strong>: <br />
-	<strong>URL of plan</strong>: <br />
-<h3>7.2.1. Report on services</h3>
+      <hr>
 
-<p><em>Last updated August 8, 2012 at 2:02 pm</em></p>
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
 
-<!-- ************ END BARE-BONES HTML; STOP COPYING HERE IF ADDING TO A CMS ************ -->
-
- 	<footer>
- 		Generator Version 1.1 	</footer>
-    </div> <!-- /container -->
+    </div><!--/.fluid-container-->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script>
-   		
-   		$('#import-toggle').click(function(e){ 
-   			e.preventDefault();
-   			$('#import-upload').fadeToggle();
-   		 });
-   		 
-   		$('#import-upload').change( function(){ $('#upload-form').submit() });
-   		
-   		//add multiple fields
-   		$('.add').live( 'click', function(e) {
-   			e.preventDefault();
-   			var fields = $(this).siblings('.fields:first').clone().addClass( 'border-top' );
-   			$.each( fields, function( key, field ) { 
-   				$(field).find( 'input' ).val('');
-    		});
-   			$(this).before( fields );
-   			return false;
-   		})
-    </script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
   </body>
 </html>
