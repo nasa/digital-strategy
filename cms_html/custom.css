@@ -1,0 +1,42 @@
+div.main h4 {
+    color:#000;
+    font-size:1em;
+    margin-top:4em;
+    }
+h5 {
+    margin-top:2em;
+    }
+h6 {
+    margin-bottom:0;
+    }
+span.status {
+    font-style:italic;
+    display:block;
+    margin-bottom:1em;
+    }
+    span.completed {
+        color:green;
+        }
+    span.incomplete {
+    color:red;
+    }
+    span.inprogress {
+    color:orange;
+    }
+
+div.sub {
+    margin-left:2.5%
+    }
+
+div.sub h6 {
+    margin-bottom:0;
+    }
+
+div.sub ol {
+    margin-top:0 !important;
+    margin-left:2.5% !important;
+    }
+
+div.meta span.description {
+    display:block;
+    }
