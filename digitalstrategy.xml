@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <report>
   <agency>NASA</agency>
-  <generated>2012-08-23 14:02:35</generated>
+  <generated>2012-11-27 22:39:46</generated>
   <items>
     <item id="2.1">
       <parent/>
@@ -277,83 +277,24 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
-        </field>
-        <field>
-          <type>text</type>
-          <name>4-2-link</name>
-          <label>Link to governance document</label>
-          <options/>
-          <value/>
-        </field>
-      </fields>
-      <multiple/>
-    </item>
-    <item id="4.2.1">
-      <parent>4.2</parent>
-      <text>Goals</text>
-      <due>6 months</due>
-      <due_date>2012/11/23</due_date>
-      <fields>
-        <field>
-          <type>text</type>
-          <name>4-2-1-goal</name>
-          <label>Goal</label>
-          <options/>
-          <value/>
+          <value>completed</value>
         </field>
         <field>
           <type>textarea</type>
-          <name>4-2-1-measure</name>
-          <label>Measure</label>
+          <name>4-2-policy</name>
+          <label>Paragraph on Governance</label>
           <options/>
-          <value/>
+          <value>In responding to Milestone 4.2 of the Digital Government Strategy, NASA heeded the Advisory Group&#x2019;s encouragement to &#x201C;build upon existing structures and processes as much as possible.&#x201D;  To locate the gaps in existing governance structures, NASA&#x2019;s Digital Strategy response team identified all necessary decisions concerning digital services, using the three layers pointed out in the Digital Strategy&#x2014;information, platform, presentation&#x2014;as a guide.</value>
         </field>
         <field>
-          <type>text</type>
-          <name>4-2-1-completion-date</name>
-          <label>Target completion date</label>
+          <type>textarea</type>
+          <name>4-2-link</name>
+          <label>URL to Governance Document</label>
           <options/>
-          <value/>
+          <value>http://www.nasa.gov/agency/digitalstrategy/governance.html</value>
         </field>
       </fields>
       <multiple/>
-    </item>
-    <item id="4.2.3">
-      <parent>4.2</parent>
-      <text>Set specified agency-wide policies and standards</text>
-      <due>6 months</due>
-      <due_date>2012/11/23</due_date>
-      <fields>
-        <field>
-          <type>text</type>
-          <name>4-2-3-standard</name>
-          <label>Policy or standard</label>
-          <options/>
-          <value/>
-        </field>
-        <field>
-          <type>select</type>
-          <name>4-2-3-status</name>
-          <label>Overall Status</label>
-          <options>
-            <option>
-              <label>Not Started</label>
-              <value>not-started</value>
-            </option>
-            <option>
-              <label>In Progress</label>
-              <value>in-progress</value>
-            </option>
-            <option>
-              <label>Completed</label>
-              <value>completed</value>
-            </option>
-          </options>
-          <value/>
-        </field>
-      </fields>
-      <multiple>1</multiple>
     </item>
     <item id="5.2">
       <parent/>
@@ -379,44 +320,30 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>in-progress</value>
         </field>
       </fields>
       <multiple/>
     </item>
     <item id="5.2.1">
       <parent>5.2</parent>
-      <text>Develop mobile device inventory</text>
+      <text>Develop wireless and mobile inventory</text>
       <due>6 months</due>
       <due_date>2012/11/23</due_date>
       <fields>
         <field>
           <type>text</type>
-          <name>5-2-1-link</name>
-          <label>Link to inventory</label>
-          <options/>
-          <value/>
-        </field>
-      </fields>
-      <multiple/>
-    </item>
-    <item id="5.2.2">
-      <parent>5.2</parent>
-      <text>Develop wireless service contract inventory</text>
-      <due>6 months</due>
-      <due_date>2012/11/23</due_date>
-      <fields>
-        <field>
-          <type>text</type>
-          <name>5-2-2-component</name>
+          <name>5-2-1-component</name>
           <label>Bureau/Component</label>
           <options/>
-          <value/>
+          <value>
+            <value>OCIO</value>
+          </value>
         </field>
         <field>
           <type>select</type>
-          <name>5-2-2-device-inventory-status</name>
-          <label>Mobile Device Inventory Status</label>
+          <name>5-2-1-inventory-status</name>
+          <label>Inventory Status</label>
           <options>
             <option>
               <label>Not Started</label>
@@ -431,27 +358,9 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
-        </field>
-        <field>
-          <type>select</type>
-          <name>5-2-2-contract-inventory-status</name>
-          <label>Wireless Service Contract Inventory Status</label>
-          <options>
-            <option>
-              <label>Not Started</label>
-              <value>not-started</value>
-            </option>
-            <option>
-              <label>In Progress</label>
-              <value>in-progress</value>
-            </option>
-            <option>
-              <label>Completed</label>
-              <value>completed</value>
-            </option>
-          </options>
-          <value/>
+          <value>
+            <value>in-progress</value>
+          </value>
         </field>
       </fields>
       <multiple>1</multiple>
@@ -492,9 +401,39 @@
       <due_date>2012/11/23</due_date>
       <fields>
         <field>
+          <type>select</type>
+          <name>8-2-1-tool</name>
+          <label>Implemented Digital Analytics Program</label>
+          <options>
+            <option>
+              <label>Yes</label>
+              <value>yes</value>
+            </option>
+            <option>
+              <label>No</label>
+              <value>no</value>
+            </option>
+          </options>
+          <value/>
+        </field>
+        <field>
           <type>textarea</type>
           <name>8-2-1-implementation</name>
-          <label>Describe Implementation</label>
+          <label>If Not, Describe Implementation</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>8-2-1-percent</name>
+          <label>Percent of websites covered</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>8-2-1-url</name>
+          <label>URL of performance data</label>
           <options/>
           <value/>
         </field>
@@ -511,6 +450,13 @@
           <type>textarea</type>
           <name>8-2-2-implementation</name>
           <label>Describe Implementation</label>
+          <options/>
+          <value/>
+        </field>
+        <field>
+          <type>text</type>
+          <name>8-2-2-url</name>
+          <label>URL of performance data</label>
           <options/>
           <value/>
         </field>
