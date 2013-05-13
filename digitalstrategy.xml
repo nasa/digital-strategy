@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <report>
   <agency>NASA</agency>
-  <generated>2012-11-27 22:39:46</generated>
+  <generated>2013-05-13 17:55:56</generated>
   <items>
     <item id="2.1">
       <parent/>
@@ -43,7 +43,11 @@
           <name>2-1-1-customer-engagement-approach</name>
           <label>Paragraph on customer engagement approach</label>
           <options/>
-          <value>Code and data are two of the major ways that NASA engages our customers. Code.nasa.gov website expands NASA&#x2019;s open source activities, surfaces existing activities, provides a discussion forum, and guides internal and external groups in open development, release, and contribution.NASA hoped to lower barriers to building open technology in partnership with the public. Phase two concentrates on discussion of open source concepts, policies, and activities at NASA. The third phase focuses on building software tools to improve and speed open source development (distributed version control, issue tracking, continuous integration, documentation, communication, and planning/management). Data.nasa.gov is NASA&#x2019;s commitment to open data expands the audience for the vast body of knowledge captured in nearly 100 years of U.S. aeronautics and space data. Developers, technologists, entrepreneurs, citizen scientists and many others can contribute directly to the exploration of space and Earth by helping to create new ways of looking at this data. Additionally, the release of administrative and procedural information from within NASA enables researchers and analysts to understand more about the inner workings of NASA as well as allow our own employees to better understand other functions of our Agency. As part of the Open Government Initiative, the Agency is working to improve accessibility to this data and incentivizing the use of government data by citizens. To address the ever-increasing amount of tools and data catalogs that are publicly available on NASA&#x2019;s many websites, this directory lists publicly available datasets and serves to streamline the process for posting these datasets on data.gov. The directory includes information and direct links to more than 1000 datasets, and this is just a small beginning.</value>
+          <value>NASA engages with the public through a variety of avenues, perhaps the most relevant to the Digital Strategy initiative being our commitment to open data and open source software. Two platforms, data.nasa.gov and code.nasa.gov, serve as the home for the agency's efforts in these areas.&#xD;
+&#xD;
+Code.nasa.gov expands NASA&#x2019;s open source activities, surfaces existing activities, and guides internal and external groups in open development, release, and contribution. In doing so, NASA hopes to lower barriers to building open technology in partnership with the public. Future plans for code.nasa.gov include closer integration with our GitHub presence (http://github.com/nasa), as well as improved catalogs of our available APIs and software release processes.&#xD;
+&#xD;
+Data.nasa.gov is NASA&#x2019;s flagship platform for sharing information about the vast data we collect and store - over 100 years of U.S. aeronautics and space data. Developers, technologists, entrepreneurs, citizen scientists and many others can contribute directly to the exploration of space and Earth by helping to create new ways of looking at this data.  As part of the Open Government Initiative, the Agency is working to improve accessibility to this data and incentivizing the use of government data by citizens. To address the ever-increasing amount of tools and data catalogs that are publicly available on NASA&#x2019;s many websites, this directory lists publicly available datasets and serves to streamline the process for posting these datasets on data.gov. The directory includes information and direct links to more than 1000 datasets.</value>
         </field>
       </fields>
       <multiple/>
@@ -287,7 +291,7 @@
           <value>In responding to Milestone 4.2 of the Digital Government Strategy, NASA heeded the Advisory Group&#x2019;s encouragement to &#x201C;build upon existing structures and processes as much as possible.&#x201D;  To locate the gaps in existing governance structures, NASA&#x2019;s Digital Strategy response team identified all necessary decisions concerning digital services, using the three layers pointed out in the Digital Strategy&#x2014;information, platform, presentation&#x2014;as a guide.</value>
         </field>
         <field>
-          <type>textarea</type>
+          <type>text</type>
           <name>4-2-link</name>
           <label>URL to Governance Document</label>
           <options/>
@@ -320,7 +324,7 @@
               <value>completed</value>
             </option>
           </options>
-          <value>in-progress</value>
+          <value>completed</value>
         </field>
       </fields>
       <multiple/>
@@ -359,6 +363,7 @@
             </option>
           </options>
           <value>
+            <value>completed</value>
             <value>in-progress</value>
           </value>
         </field>
@@ -368,8 +373,8 @@
     <item id="8.2">
       <parent/>
       <text>Implement performance and customer satisfaction measuring tools on all .gov websites</text>
-      <due>6 months</due>
-      <due_date>2012/11/23</due_date>
+      <due>8 months</due>
+      <due_date>2013/1/22</due_date>
       <fields>
         <field>
           <type>select</type>
@@ -389,7 +394,7 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>in-progress</value>
         </field>
       </fields>
       <multiple/>
@@ -397,8 +402,8 @@
     <item id="8.2.1">
       <parent>8.2</parent>
       <text>Implement performance measurement tool</text>
-      <due>6 months</due>
-      <due_date>2012/11/23</due_date>
+      <due>8 months</due>
+      <due_date>2013/1/22</due_date>
       <fields>
         <field>
           <type>select</type>
@@ -414,7 +419,7 @@
               <value>no</value>
             </option>
           </options>
-          <value/>
+          <value>yes</value>
         </field>
         <field>
           <type>textarea</type>
@@ -428,14 +433,14 @@
           <name>8-2-1-percent</name>
           <label>Percent of websites covered</label>
           <options/>
-          <value/>
+          <value>N/A</value>
         </field>
         <field>
           <type>text</type>
           <name>8-2-1-url</name>
           <label>URL of performance data</label>
           <options/>
-          <value/>
+          <value>N/A</value>
         </field>
       </fields>
       <multiple/>
@@ -443,22 +448,22 @@
     <item id="8.2.2">
       <parent>8.2</parent>
       <text>Implement customer satisfaction tool</text>
-      <due>6 months</due>
-      <due_date>2012/11/23</due_date>
+      <due>8 months</due>
+      <due_date>2013/1/22</due_date>
       <fields>
         <field>
           <type>textarea</type>
           <name>8-2-2-implementation</name>
           <label>Describe Implementation</label>
           <options/>
-          <value/>
+          <value>The main www.nasa.gov website uses ForeSee Feedback analytics that enables the agency to offer the opportunity for citizens to volunteer allow the agency to follow their movements throughout the website before offering a short survey measuring their satisfaction at the conclusion of their visit.</value>
         </field>
         <field>
           <type>text</type>
           <name>8-2-2-url</name>
           <label>URL of performance data</label>
           <options/>
-          <value/>
+          <value>N/A</value>
         </field>
       </fields>
       <multiple/>
@@ -487,7 +492,7 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>in-progress</value>
         </field>
       </fields>
       <multiple/>
@@ -499,34 +504,55 @@
       <due_date>2012/11/23</due_date>
       <fields>
         <field>
-          <type>text</type>
-          <name>1-2-1-url</name>
-          <label>URL of policy</label>
-          <options/>
-          <value/>
-        </field>
-        <field>
           <type>textarea</type>
           <name>1-2-1-description</name>
           <label>Describe policy</label>
           <options/>
-          <value/>
+          <value>NASA is in the process of reviewing the recently released open data policy. The agency's long tradition of sharing its work and research with the public mean that much of our data already meets the requirements laid out in the policy, and the agency plans a comprehensive response to ensure that additional data is released in formats that are open, accessible, and of value to the public.  </value>
         </field>
       </fields>
       <multiple/>
     </item>
-    <item id="1.2.2">
+    <item id="1.2.3">
       <parent>1.2</parent>
-      <text>Operationalize /developer page</text>
-      <due>12 months</due>
-      <due_date>2013/05/23</due_date>
+      <text>Operationalize Enterprise Data Inventory</text>
+      <due>17 months</due>
+      <due_date>2013/10/23</due_date>
       <fields>
         <field>
           <type>text</type>
-          <name>1-2-2-url</name>
-          <label>URL of page</label>
+          <name>1-2-3-datasets-in-inventory</name>
+          <label>Number of datasets in the Enterprise Data Inventory</label>
           <options/>
-          <value/>
+          <value>100</value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>1-2-3-systems-in-inventory</name>
+          <label>Number of systems whose datasets are in the Enterpirse Data Inventory</label>
+          <options/>
+          <value>100</value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>1-2-3-datasets-potential-public</name>
+          <label>Number of datasets that can be made publicly available</label>
+          <options/>
+          <value>100</value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>1-2-3-datsets-listed</name>
+          <label>Number of datasets listed on the /data page</label>
+          <options/>
+          <value>100</value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>1-2-3-released-datasets-listed</name>
+          <label>Number of released datasets listed on the /data page</label>
+          <options/>
+          <value>100</value>
         </field>
       </fields>
       <multiple/>
@@ -555,30 +581,32 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>completed</value>
         </field>
       </fields>
       <multiple/>
     </item>
     <item id="2.2.1">
       <parent>2.1</parent>
-      <text>Make 2+ systems (datasets) available via web APIs with metadata tags</text>
+      <text>Publish plan on future activity</text>
       <due>12 months</due>
       <due_date>2013/05/23</due_date>
       <fields>
         <field>
-          <type>text</type>
-          <name>2-2-1-url</name>
-          <label>URL of page</label>
+          <type>textarea</type>
+          <name>2-2-1-describe</name>
+          <label>Describe policy</label>
           <options/>
-          <value/>
+          <value>NASA sees huge promise in the ability of web APIs to enhance our ability to deliver data to both traditional and new audiences. Although the agency has petabytes of data publicly available to the world from a variety of missions, only a small portion is accessible through API interfaces. With constrained budgetary resources and the large, complex, and legacy systems our data is housed in, however, relying solely on NASA data owners to release APIs is not the best approach to opening our data to the world. Thus, our strategy has been to launch a series of challenges and collaboration opportunities to enable citizen developers around the world to help us in our quest to further the transparency and accessibility of NASA data systems. Events like the International Space Apps Challenge open the opportunity for thousands of citizen developers from across the planet to contribute their time to helping the agency create front end APIs for many of our legacy data systems. &#xD;
+&#xD;
+NASA has hosted two International Space Apps Challenge events - the first in April 2012 and the second in April 2013. In the 2013 event, 83 cities around the world with over 9,100 participants created 770 unique, open source solutions to a series of challenges the agency issued. The challenges varied in scope and subject, from the creation of visualizations of our data to designing more efficient Air Traffic Control systems to creating new API interfaces to legacy datasets. With relatively little investment from the agency, dozens of unique APIs were born out of the initiative, many of which are detailed in this report. Going forward, NASA hopes to hold more events like the Space Apps Challenge, in collaboration with our own internal efforts, to adopt these produced APIs and harness the power of citizen collaboration to assist us in reaching our goals.</value>
         </field>
       </fields>
-      <multiple>1</multiple>
+      <multiple/>
     </item>
     <item id="2.2.2">
       <parent>2.1</parent>
-      <text>Publish plan on future activity</text>
+      <text>Make 2+ systems (datasets) available via web APIs with metadata tags</text>
       <due>12 months</due>
       <due_date>2013/05/23</due_date>
       <fields>
@@ -587,14 +615,36 @@
           <name>2-2-2-system</name>
           <label>Name of system</label>
           <options/>
-          <value/>
+          <value>
+            <value>NASA Data API</value>
+            <value>Earth Observing System (EOS) Clearing House (ECHO)</value>
+            <value>Heliocentric Trajectories Web Services</value>
+            <value>ExoAPI</value>
+            <value>SkyMorph/NEAT API</value>
+            <value>Asterank API</value>
+            <value>{MAAS} API</value>
+            <value>Horizons-API</value>
+            <value>The Blue Marble API</value>
+            <value>Predict the Sky API</value>
+          </value>
         </field>
         <field>
           <type>textarea</type>
           <name>2-2-2-description</name>
           <label>Description of system</label>
           <options/>
-          <value/>
+          <value>
+            <value>The data.nasa.gov API allows a machine-readable interface to return metadata from the site organized by category, tag, date, or search term. We&#x2019;re hoping this allows new and creative visualizations of the data resources NASA provides to the public. Additionally, it is a learning experience for us as we work to expand transparency, participation, and collaboration at NASA through new uses of technology.</value>
+            <value>The NASA-developed Earth Observing System (EOS) Clearinghouse (ECHO) is a spatial and temporal metadata registry and order broker built by NASA's Earth Science Data and Information System (ESDIS) that enables the science community to more easily use and exchange NASA's data and services. ECHO's main objective is to enable broader use of NASA's EOS data. It allows users to more efficiently search and access data and services and increases the potential for interoperability with new tools and services. The value of these resources increases as the potential to exchange and interoperate increases. ECHO has been working with other organizations to provide their Earth science metadata alongside NASA's for users to search and access. ECHO stores metadata from a variety of science disciplines and domains, including Climate Variability and Change, Carbon Cycle and Ecosystems, Earth Surface and Interior, Atmospheric Composition, Weather, and Water and Energy Cycle.</value>
+            <value>An API offering heliocentric trajectories for selected spacecraft, planets, and comets.</value>
+            <value>The ExoAPI is a powerful tool that provides access to exoplanet data through a simple RESTful API. Developed as part of Space Apps Challenge 2012.</value>
+            <value>This API wraps NASA's SkyMorph archive in a RESTful JSON interface. Currently, it provides observation and image data from the NEAT survey. Developed as part of Space Apps Challenge 2013.</value>
+            <value>The Asterank database is a thin layer over the NASA/JPL Small Body Database, merged with JPL delta-v data, published asteroid mass data, and our own calculations. Developed as part of Space Apps Challenge 2013.</value>
+            <value>The {MAAS} API is an open source REST API built to help make it easier and more efficient to build interactive applications that want to utilize the wealth of weather data being transmitted by the Curiosity Rover on Mars. Our API is built upon the REMS (Rover Environmental Monitoring Station) data provided by the Centro de Astrobiologia (CSIC-INTA). Developed as part of Space Apps Challenge 2013.</value>
+            <value>HORIZONS is a part of NASA Jet Propulsion Laboratory. It is an on-line solar system data and ephemeris computation service that provides access to key solar system data and flexible production of highly accurate ephemerides for solar system objects. Through NASA JPL's HORIZONS system, we have opened up their on-line solar system data and ephemeris computation service to the web, via a RESTful JSON API.Developed as part of Space Apps Challenge 2013.</value>
+            <value>The Blue Marble API provides programmatic access to NASA images of the earth by location. Developed as part of Space Apps Challenge 2013.</value>
+            <value>We combine global weather data with a comprehensive library of space events, from the International Space Station passing overhead to planets visible with the naked eye. Simple API calls let you find out when the next interesting space events will be visible, from any location worldwide. Developed as part of Space Apps Challenge 2013.</value>
+          </value>
         </field>
         <field>
           <type>select</type>
@@ -614,28 +664,72 @@
               <value>both</value>
             </option>
           </options>
-          <value/>
+          <value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+          </value>
         </field>
         <field>
           <type>text</type>
           <name>2-2-2-customers</name>
           <label>Main Customers</label>
           <options/>
-          <value/>
+          <value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>2-2-2-uii</name>
+          <label>Unique Investment Identifier</label>
+          <options/>
+          <value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+            <value>026-000000001</value>
+          </value>
         </field>
         <field>
           <type>text</type>
           <name>2-2-2-url</name>
-          <label>Endpoint URL</label>
+          <label>API Link</label>
           <options/>
-          <value/>
-        </field>
-        <field>
-          <type>textarea</type>
-          <name>2-2-2-compliance</name>
-          <label>Summary of policy compliance</label>
-          <options/>
-          <value/>
+          <value>
+            <value>http://data.nasa.gov/api-info/</value>
+            <value>http://api.echo.nasa.gov/echo/</value>
+            <value>http://sscweb.gsfc.nasa.gov/WebServices/helio/</value>
+            <value>http://exoapi.com/</value>
+            <value>http://www.asterank.com/skymorph</value>
+            <value>http://www.asterank.com/api</value>
+            <value>http://marsweather.ingenology.com/</value>
+            <value>http://nasa.api.niewma.com/</value>
+            <value>http://bigmarbleapi.azurewebsites.net/Help</value>
+            <value>http://predictthesky.org/</value>
+          </value>
         </field>
       </fields>
       <multiple>1</multiple>
@@ -664,14 +758,14 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>completed</value>
         </field>
         <field>
           <type>textarea</type>
           <name>5-3-policy</name>
-          <label>Paragraph on policy</label>
+          <label>Describe Implementation</label>
           <options/>
-          <value/>
+          <value>As part of NASA's transition to ACES, the consolidated solution for delivering end-user services across the agency to achieve increased efficiencies and reduced costs through standardization, the agency undertook an extensive review of mobile device and service procurements. The agency offers employees a variety of device and service options, and is currently researching other opportunities for further flexibility in mobile services, including bring your own device programs and enhanced teleworking options.</value>
         </field>
       </fields>
       <multiple/>
@@ -700,14 +794,14 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>completed</value>
         </field>
         <field>
           <type>textarea</type>
           <name>6-3-policy</name>
-          <label>Paragraph on policy</label>
+          <label>Describe Implementation</label>
           <options/>
-          <value/>
+          <value>As part of NASA's Digital Governance, the agency is working to established improved digital service guidelines, many of which will come to fruition on the full launch of the agency's Web Services Initiative, which aims to transition the agency's web presence in to a modern, cloud-based, open source environment.</value>
         </field>
       </fields>
       <multiple/>
@@ -736,14 +830,15 @@
               <value>completed</value>
             </option>
           </options>
-          <value/>
+          <value>completed</value>
         </field>
         <field>
           <type>textarea</type>
-          <name>7-2-url</name>
-          <label>URL of plan</label>
+          <name>7-2-policy</name>
+          <label>Describe Implementation</label>
           <options/>
-          <value/>
+          <value>As mobile devices continue to count for a larger percentage of overall web traffic in the US, NASA has strived to offer a variety of services in mobile friendly offerings, including via specialized mobile applications, mobile optimized websites, and SMS gateways. With constrained budgetary resources, however, relying solely on NASA programs to release mobile interfaces is not the best approach to furthering this objective. Thus, our strategy has been to launch a series of challenges and collaboration opportunities to enable citizen developers around the world to help us in our quest to further the reach of NASA in to the mobile landscape. Events like the International Space Apps Challenge open the opportunity for thousands of citizen developers from across the planet to contribute their time to helping the agency create mobile interfaces for our programs.&#xD;
+</value>
         </field>
       </fields>
       <multiple/>
@@ -759,14 +854,28 @@
           <name>7-2-1-name</name>
           <label>Service Name</label>
           <options/>
-          <value/>
+          <value>
+            <value>WebTADS Mobile</value>
+            <value>NASA Contacts</value>
+            <value>iARC</value>
+            <value>iMorpheus</value>
+            <value>NASA App</value>
+            <value>NASA.gov Mobile</value>
+          </value>
         </field>
         <field>
           <type>textarea</type>
-          <name>7-2-1-name</name>
+          <name>7-2-1-description</name>
           <label>Service Description</label>
           <options/>
-          <value/>
+          <value>
+            <value>WebTADS Mobile is a lighter version of the desktop-based WebTADS developed to provide NASA Civil Servants with the convenience of recording time when they're not in the office or connected via VPN.</value>
+            <value>Look up your NASA colleagues' contact information directly from your phone.</value>
+            <value>iARC is a mobile app specifically for Ames Research Center which will allow Ames users to search buildings on campus by name, pinpoint on the map, see location relative to their own and stay informed with the latest news.</value>
+            <value>Project Morpheus is testing a new NASA spacecraft at the Johnson Space Center, and the iMorpheus iOS app aims to bring you right to the center of the action! iMorpheus streams real lander telemetry from the Christopher C. Kraft Jr. Mission Control Center and builds a live, real-time 3D simulation during actual engine and performance tests. If the lander isn't being tested, you can just go to manual and have your own virtual test flight around JSC!</value>
+            <value>The NASA App showcases a huge collection of the latest NASA content, including images, videos on-demand, NASA Television, mission information, news </value>
+            <value>NASA.gov offers a mobile optimized version of the frontpage that enables easier navigation for mobile visitors.</value>
+          </value>
         </field>
         <field>
           <type>select</type>
@@ -786,12 +895,33 @@
               <value>both</value>
             </option>
           </options>
-          <value/>
+          <value>
+            <value>internal</value>
+            <value>internal</value>
+            <value>internal</value>
+            <value>both</value>
+            <value>both</value>
+            <value>both</value>
+          </value>
         </field>
         <field>
           <type>text</type>
           <name>7-2-1-customers</name>
           <label>Primary customers</label>
+          <options/>
+          <value>
+            <value>Employees</value>
+            <value>Employees</value>
+            <value>Employees</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+            <value>Employees, Public</value>
+          </value>
+        </field>
+        <field>
+          <type>text</type>
+          <name>7-2-1-uii</name>
+          <label>Unique Investment Identifier</label>
           <options/>
           <value/>
         </field>
@@ -800,14 +930,14 @@
           <name>7-2-1-url</name>
           <label>URL of service</label>
           <options/>
-          <value/>
-        </field>
-        <field>
-          <type>textarea</type>
-          <name>7-2-1-optimizations</name>
-          <label>Summary of optimizations</label>
-          <options/>
-          <value/>
+          <value>
+            <value>https://apps.nasa.gov/content/webtads</value>
+            <value>https://apps.nasa.gov/content/nasa-contacts</value>
+            <value>https://apps.nasa.gov/content/iarc</value>
+            <value>https://apps.nasa.gov/content/imorpheus#!prettyPhoto</value>
+            <value>http://www.nasa.gov/centers/ames/iphone/index.html</value>
+            <value>mobile.nasa.gov</value>
+          </value>
         </field>
       </fields>
       <multiple>1</multiple>
