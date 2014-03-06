@@ -23,4 +23,5 @@ Files
 Questions
 ----
 
-Implementation of the Digital Strategy at NASA is coordinated by the NASA's Open Government Team, located in the Office of the Chief Information Officer. For general information, contact [Beth Beck](mailto:beth.beck@nasa.gov).  To get involved, contact [Jason Duley](jason.duley@nasa.gov).  Questions about the website, APIs, data or code can be directed to [Sean Herron](sean.herron@nasa.gov).
+Implementation of the Digital Strategy at NASA is coordinated by the NASA's Open Government Team, located in the Office of the Chief Information Officer. For general information, contact [Beth Beck](mailto:beth.beck@nasa.gov).  
+Questions about the website, APIs, data or code can be directed to [Jason Duley](jason.duley@nasa.gov).
