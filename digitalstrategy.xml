@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <report>
   <agency>NASA</agency>
-  <generated>2014-06-18 14:44:38</generated>
+  <generated>2014-06-23 11:14:23</generated>
   <items>
     <item id="2.1">
       <parent/>
@@ -537,7 +537,7 @@ NASA is also currently working on contract language to be put in place for all n
           <label>Title</label>
           <options/>
           <value>
-            <value>Publication of completed PDL</value>
+            <value>Publication of updated PDL</value>
           </value>
         </field>
         <field>
