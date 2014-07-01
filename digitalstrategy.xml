@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <report>
   <agency>NASA</agency>
-  <generated>2014-06-23 11:14:23</generated>
+  <generated>2014-07-01 14:17:30</generated>
   <items>
     <item id="2.1">
       <parent/>
@@ -165,8 +165,7 @@
           <name>7-1-1-customer-engagement-approach</name>
           <label>Paragraph on customer engagement approach</label>
           <options/>
-          <value>In June, 2012 NASA held a Mobility Summit at Kennedy Space Center with all the Center Chief Technology Officers (CTO) for IT who worked as the CTO Council to craft an Agency vision and strategy for Agency mobility. NASA's mobility vision is articulated as, "Anyone will be able to securely and seamlessly access and share any information, anyplace, anytime, with any device." The following identified activities are projected: Publish NASA Mobile application development and release standards; Publish Mobile Computing guidelines - ensuring that all newly provisioned services are device agnostic; Publish NASA standard mobility practices; Prepare communications and support to enable a mobile workforce.&#xD;
-</value>
+          <value>NASA is a leader in providing open data to citizens, researchers, and fellow agencies. Our NASA vision is to &#x201C;to reach for new heights and reveal the unknown so that what we do and learn will benefit all humankind.&#x201D; We do this by sharing our discoveries as widely as possible. We've embarked on an ambitious citizen engagement through our crowdsourcing and challenge portfolio, where we allow our customers -- the taxpayer -- to engage with us to create innovative new solutions to problems facing humanity, both on and off the planet. NASA leads the public sector in the breadth and depth of experience and experimentation with prizes, citizen science, and challenges, much of which is based on NASA's openly available data and tools. From the International Space Apps Challenge, to Centennial Challenges, to NASA's Open Innovation Pavilion, and NASA Tournament Lab, citizens came join our journey of exploration.</value>
         </field>
       </fields>
       <multiple/>
@@ -284,7 +283,7 @@
           <name>4-2-policy</name>
           <label>Paragraph on Governance</label>
           <options/>
-          <value>In responding to Milestone 4.2 of the Digital Government Strategy, NASA heeded the Advisory Group&#x2019;s encouragement to &#x201C;build upon existing structures and processes as much as possible.&#x201D;  To locate the gaps in existing governance structures, NASA&#x2019;s Digital Strategy response team identified all necessary decisions concerning digital services, using the three layers pointed out in the Digital Strategy&#x2014;information, platform, presentation&#x2014;as a guide.</value>
+          <value>In responding to Milestone 4.2 of the Digital Government Strategy, NASA followed the Advisory Group&#x2019;s encouragement to &#x201C;build upon existing structures and processes as much as possible.&#x201D;  To cover the gaps in existing governance structures, NASA is creating a Digital Services Council to be co-chaired by the Chief Information Officer and Associate Administrator for Communications. The official memo, signed March 3, 2014 outlined the creation of a Digital Services Council with representation from Mission Directorates, Centers, and Headquarters to provide leadership and direction for digital services &#x2013; including data, information, platforms, and tools. NASA is currently working through the logistics for setting up the Council: drafting the charter, recruiting membership, and determining topics that bridge digital service requirements between the Office of Communications and CIO.</value>
         </field>
         <field>
           <type>text</type>
@@ -504,7 +503,7 @@
           <label>Describe policy</label>
           <options/>
           <value>NASA is in the process of reviewing the recently released open data policy. The agency's long tradition of sharing its work and research with the public mean that much of our data already meets the requirements laid out in the policy, and the agency plans a comprehensive response to ensure that additional data is released in formats that are open, accessible, and of value to the public.&#xD;
-NASA is also currently working on contract language to be put in place for all new IT systems such that hooks are provided to allow exposure of data in a machine-readable manner.  Additionally, the NIAM team run out of OCIO is providing data guidelines and standards that show reference architectures and implementations for best-practices approaches to machine-readable data and data operability.</value>
+NASA is also currently working on contract language to be put in place for all new IT systems such that hooks are provided to allow exposure of data in a machine-readable manner.  Additionally, the NASA Information Architecture Management initiative, run out of Office of Chief Information Officer, is providing data guidelines and standards that show reference architectures and implementations for best-practices approaches to machine-readable data and data operability.</value>
         </field>
       </fields>
       <multiple/>
@@ -520,7 +519,13 @@ NASA is also currently working on contract language to be put in place for all n
           <name>1-2-4-data-inventory-schedule-summary</name>
           <label>Summarize the Inventory Schedule</label>
           <options/>
-          <value>The Inventory Schedule is not available as it is currently being developed.  </value>
+          <value>NASA is working with our Mission Directorates to identify, collect, and format existing terabytes of data that we routinely make available through open sources, most often websites. In addition, we're identifying non-public data to include in the comprehensive inventory.&#xD;
+&#xD;
+Earth Science: July 2014&#xD;
+Space Science: August 2014&#xD;
+Space Technology: September 2014&#xD;
+Human Spaceflight: October 2014&#xD;
+Aeronautics: November 2014</value>
         </field>
       </fields>
       <multiple/>
@@ -555,7 +560,7 @@ NASA is also currently working on contract language to be put in place for all n
           <label>Milestone Date</label>
           <options/>
           <value>
-            <value>9/30/2014</value>
+            <value>monthly</value>
           </value>
         </field>
         <field>
@@ -564,7 +569,7 @@ NASA is also currently working on contract language to be put in place for all n
           <label>Description of how this milestone expands the Inventory</label>
           <options/>
           <value>
-            <value>This activity focuses on adding datasets.</value>
+            <value>This activity focuses on adding datasets owned by NASA's Mission Directorates. Data from each Mission Directorate is unique; therefore, expanding the inventory.</value>
           </value>
         </field>
         <field>
@@ -573,7 +578,7 @@ NASA is also currently working on contract language to be put in place for all n
           <label>Description of how this milestone enriches the Inventory</label>
           <options/>
           <value>
-            <value>This activity focuses on adding datasets.</value>
+            <value>Data from each Mission Directorate is unique; therefore, each additional dataset enriches the inventory.</value>
           </value>
         </field>
         <field>
@@ -582,7 +587,7 @@ NASA is also currently working on contract language to be put in place for all n
           <label>Description of how this milestone opens the Inventory</label>
           <options/>
           <value>
-            <value>This activity focuses on adding datasets.</value>
+            <value>Each milestone adds new datasets to open the inventory.</value>
           </value>
         </field>
       </fields>
@@ -603,7 +608,7 @@ NASA is also currently working on contract language to be put in place for all n
 &#xD;
 Code.nasa.gov expands NASA&#x2019;s open source activities, surfaces existing activities, and guides internal and external groups in open development, release, and contribution. In doing so, NASA hopes to lower barriers to building open technology in partnership with the public. Future plans for code.nasa.gov include closer integration with our GitHub presence (http://github.com/nasa), as well as improved catalogs of our available APIs and software release processes.&#xD;
 &#xD;
-Data.nasa.gov is NASA&#x2019;s flagship platform for sharing information about the vast data we collect and store - over 100 years of U.S. aeronautics and space data. Developers, technologists, entrepreneurs, citizen scientists and many others can contribute directly to the exploration of space and Earth by helping to create new ways of looking at this data. As part of the Open Government Initiative, the Agency is working to improve accessibility to this data and incentivizing the use of government data by citizens. To address the ever-increasing amount of tools and data catalogs that are publicly available on NASA&#x2019;s many websites, this directory lists publicly available datasets and serves to streamline the process for posting these datasets on data.gov. The directory includes information and direct links to more than 1000 datasets.</value>
+Data.nasa.gov is NASA&#x2019;s flagship platform for sharing information about the vast data we collect and store - over 100 years of U.S. aeronautics and space data. Developers, technologists, entrepreneurs, citizen scientists and many others can contribute directly to the exploration of space and Earth by helping to create new ways of looking at this data. As part of the Open Government Initiative, the Agency is working to improve accessibility to this data and incentivizing the use of government data by citizens. To address the ever-increasing amount of tools and data catalogs that are publicly available on NASA&#x2019;s many websites, this directory lists publicly available datasets and serves to streamline the process for posting these datasets on data.gov. The directory includes information and direct links to more than 3000 datasets.</value>
         </field>
       </fields>
       <multiple/>
@@ -666,7 +671,7 @@ Data.nasa.gov is NASA&#x2019;s flagship platform for sharing information about t
           <options/>
           <value>NASA sees huge promise in the ability of web APIs to enhance our ability to deliver data to both traditional and new audiences. Although the agency has petabytes of data publicly available to the world from a variety of missions, only a small portion is accessible through API interfaces. With constrained budgetary resources and the large, complex, and legacy systems our data is housed in, however, relying solely on NASA data owners to release APIs is not the best approach to opening our data to the world. Thus, our strategy has been to launch a series of challenges and collaboration opportunities to enable citizen developers around the world to help us in our quest to further the transparency and accessibility of NASA data systems. Events like the International Space Apps Challenge open the opportunity for thousands of citizen developers from across the planet to contribute their time to helping the agency create front end APIs for many of our legacy data systems.&#xD;
 &#xD;
-NASA has hosted two International Space Apps Challenge events - the first in April 2012 and the second in April 2013. In the 2013 event, 83 cities around the world with over 9,100 participants created 770 unique, open source solutions to a series of challenges the agency issued. The challenges varied in scope and subject, from the creation of visualizations of our data to designing more efficient Air Traffic Control systems to creating new API interfaces to legacy datasets. With relatively little investment from the agency, dozens of unique APIs were born out of the initiative, many of which are detailed in this report. Going forward, NASA hopes to hold more events like the Space Apps Challenge, in collaboration with our own internal efforts, to adopt these produced APIs and harness the power of citizen collaboration to assist us in reaching our goals.</value>
+NASA has hosted two International Space Apps Challenge events - the first in April 2012 and the second in April 2013. In the 2013 event, 83 cities around the world with over 9,100 participants created 770 unique, open source solutions to a series of challenges the agency issued. In 2014, over 8000 participates in 95 cities and 46 countries engaged with NASA&#x2019;s data to create 671 solutions. The challenges varied in scope and subject, from the creation of visualizations of our data to creating new API interfaces to legacy datasets. Solvers created innovative methods to monitor air, water, and urban pollution, track environmental mishaps, and alerts to warn citizens of weather and health-related disasters, as well as track the asteroids and celestial events. NASA is building on these efforts, and collaborating with other agencies to create solver profiles that can be used by citizens to engage with NASA and other agencies on a long-term basis. We're also building innovation pipelines to infuse the solutions back into mainstream NASA.</value>
         </field>
       </fields>
       <multiple/>
@@ -820,7 +825,7 @@ NASA has hosted two International Space Apps Challenge events - the first in Apr
           <name>6-3-policy</name>
           <label>Describe Implementation</label>
           <options/>
-          <value>As part of NASA's Digital Governance, the agency is working to established improved digital service guidelines, many of which will come to fruition on the full launch of the agency's Web Services Initiative, which aims to transition the agency's web presence in to a modern, cloud-based, open source environment.</value>
+          <value>As part of NASA's Digital Governance, the agency is working to established improved digital service guidelines, many of which will be realized within the NASA&#x2019;s Web Services Initiative, which is transitioning our web presence in to a modern, cloud-based, open source environment.</value>
         </field>
       </fields>
       <multiple/>
