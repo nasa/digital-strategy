@@ -1,38 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Slash Digital Strategy Generator</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Le styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <style>
-    	body { margin-top: 60px; margin-bottom: 60px; }
-     	h1 { text-align: center; margin-bottom: 25px; }
-     	h3, h4 {margin-bottom: 25px; }
-     	#import-upload {display:none; text-align: center; }
-     	#import-prompt {text-align: center; font-style: italic; }
-     	#upload-form {margin: 0;}
-     	.due { float:right; color: #aaa; margin-top: 7px; font-style: italic; }
-     	.border-top { border-top: 1px solid #ccc; padding-top: 20px; }
-     	footer { text-align: center; font-style: italic; color: #ccc;}
-    </style>
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-  </head>
-
-  <body>
-  
-      <div class="container">
-
-<!-- ************ BEGIN BARE-BONES HTML; COPY STARTING HERE IF ADDING TO A CMS ************ -->
-
 <h1>Digital Government Strategy Report for the National Aeronautics and Space Administration</h1>
 
 <h2>2.1. Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</h2>
@@ -184,49 +149,4 @@ NASA has hosted three International Space Apps Challenge events. In the 2013 eve
 	<strong>Primary customers</strong>: Employees<br />
 	<strong>URL of service</strong>: https://apps.nasa.gov/content/nasa-contacts<br />
 <hr >
-<p><em>Last updated November 11, 2014 at 6:20 pm</em></p>
-
-<!-- ************ END BARE-BONES HTML; STOP COPYING HERE IF ADDING TO A CMS ************ -->
-
- 	<footer>
- 		Generator Version 1.1 	</footer>
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script>
-   		
-   		$('#import-toggle').click(function(e){ 
-   			e.preventDefault();
-   			$('#import-upload').fadeToggle();
-   		 });
-   		 
-   		$('#import-upload').change( function(){ $('#upload-form').submit() });
-   		
-   		//add multiple fields
-   		$('.add').live( 'click', function(e) {
-   			e.preventDefault();
-   			var fields = $(this).siblings('.fields:first').clone().addClass( 'border-top' );
-   			$.each( fields, function( key, field ) { 
-   				$(field).find( 'input' ).val('');
-    		});
-   			$(this).before( fields );
-   			return false;
-   		})
-    </script>
-  </body>
-</html>
+<p><em>Last updated Feb 26, 2015 at 6:20 pm</em></p>
