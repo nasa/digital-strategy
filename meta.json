@@ -1,0 +1,16 @@
+{
+"title": "digital-strategy", 
+"visibility": "public", 
+"type": "GIT", 
+"description": "This repository serves as a source for NASA's response to the president's digital strategy. Citizen developers are encouraged to use this information to build applications and tools.", 
+"url": "https://github.com/nasa/digital-strategy",
+"repo": "nasa/digital-strategy",
+"missions":["OCIO", "HQ"], 
+"categories": ["OMB Reporting", "NASA", "Open Data", "M-13-13"], 
+"languages": ["HTML", "JSON", "XML"],
+"operating_systems": ["Linux", "Windows", "Unix", "Mac"],  
+"poc": "Beth Beck", 
+"poc_mbox": "beth.beck@nasa.gov", 
+"license": "NASA Open Source Agreement Version 1.3", 
+"software_types": ["tbd"]
+}
