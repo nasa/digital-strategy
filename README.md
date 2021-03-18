@@ -6,7 +6,7 @@ This repository serves as a source for NASA's response to the president's digita
 API
 ---
 
-The files contained in this repository are available as a psuedo-service using the following syntax:
+The files contained in this repository are available as a pseudo-service using the following syntax:
 
 `https://raw.github.com/NASA/digital-strategy/master/{file}.{format}`
 
